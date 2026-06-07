@@ -21,3 +21,6 @@ config.json
 
 # Mac files
 .DS_Store
+
+# vectore stores
+*_db/
