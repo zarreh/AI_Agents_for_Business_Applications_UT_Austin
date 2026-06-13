@@ -1,0 +1,153 @@
+emp_id,emp_name,raw_bill
+E001,Amit Sharma,"""THE OAK STREET BISTRO
+245 Oak Street, San Francisco, CA 94102
+Phone No: (415) 555-2389
+Liquor License No: CA-LL-558912
+Sales Tax ID: CA-ST-784512
+
+RESTAURANT
+Bill No: SF10983
+Date: 14/01/26
+Time: 19:45
+Table: 12
+Cover: 2
+Server: Emily
+POS ID: eml_07
+
+Item Details
+
+Item Name	Qty	Rate (USD)	Amount
+Liquor – Classic Margarita	2	14.00	28.00
+Liquor – Napa Valley Cabernet	1	18.00	18.00
+Caesar Salad	1	12.00	12.00
+Grilled Salmon	1	26.00	26.00
+Truffle Fries	1	9.00	9.00
+
+Sub Total (5 items): 93.00
+
+Liquor Tax 6%: 2.76
+Service Charge 8%: 7.44
+Sales Tax 8.625%: 6.93
+
+Gross Amount: 110.13
+
+Order No: ORD-SF-77822
+THANK YOU FOR DINING WITH US"""
+E002,Neha Verma,"""""""MAPLE & IRON STEAKHOUSE
+812 West Madison Ave, Chicago, IL 60607
+Phone No: (312) 555-9043
+Liquor License No: IL-LL-773420
+Sales Tax ID: IL-ST-662910
+
+RESTAURANT
+Bill No: CH55632
+Date: 14/01/26
+Time: 21:18
+Table: 7
+Cover: 3
+Server: Daniel
+POS ID: dnl_12
+
+Item Details
+
+Item Name	Qty	Rate (USD)	Amount
+Liquor – Old Fashioned	3	15.00	45.00
+Liquor – Single Malt Scotch	2	18.00	36.00
+Ribeye Steak (12 oz)	2	38.00	76.00
+Garlic Mashed Potatoes	1	10.00	10.00
+House Green Salad	1	9.00	9.00
+
+Sub Total (7 items): 176.00
+
+Liquor Tax 7%: 5.67
+Service Charge 10%: 17.60
+Sales Tax 10.25%: 18.04
+
+Gross Amount: 217.31
+
+Order No: ORD-CH-90215
+WE APPRECIATE YOUR VISIT"""""""
+E003,Rahul Mehta,"""""""Hotel Receipt
+
+Guest Copy
+
+RIVERFRONT GRAND HOTEL
+1021 Riverside Drive, Austin, TX 78701
+Phone No: (512) 555-7812
+Hotel License No: TX-HOT-442198
+Tax Registration No: TX-TAX-889120
+
+HOTEL
+Receipt No: HT-AUS-77421
+Guest Name: Alex Morgan
+Check-in Date: 22/01/26
+Check-out Date: 24/01/26
+Nights: 2
+Room No: 508
+Room Type: Deluxe King
+Front Desk Agent: Sarah
+
+Charges
+
+Description	Qty	Rate (USD)	Amount
+Room Charge – Deluxe King	2	185.00	370.00
+Liquor – Mini Bar Whiskey (50 ml)	1	18.00	18.00
+Liquor – Mini Bar Beer	2	8.00	16.00
+Room Service – Club Sandwich	1	22.00	22.00
+Laundry Service	1	15.00	15.00
+
+Sub Total: 441.00
+
+Hotel Occupancy Tax 11%: 40.51
+Liquor Tax 6%: 2.04
+
+Total Amount Payable: 483.55
+
+Payment Method: Credit Card (Visa)
+Authorization Code: 7F29XK
+Balance Due: 0.00
+
+THANK YOU FOR STAYING WITH US
+We look forward to welcoming you again."""""""
+E005,Ali Zarreh,"""""""Hotel Receipt
+
+Guest Copy
+
+RIVERFRONT GRAND HOTEL
+1021 Riverside Drive, Austin, TX 78701
+Phone No: (512) 555-7812
+Hotel License No: TX-HOT-442198
+Tax Registration No: TX-TAX-889120
+
+HOTEL
+Receipt No: HT-AUS-77421
+Guest Name: Alex Morgan
+Check-in Date: 22/01/26
+Check-out Date: 24/01/26
+Nights: 2
+Room No: 508
+Room Type: Deluxe King
+Front Desk Agent: Sarah
+
+Charges
+
+Description	Qty	Rate (USD)	Amount
+Room Charge – Deluxe King	2	185.00	370.00
+Liquor – Mini Bar Whiskey (50 ml)	1	18.00	18.00
+Liquor – Mini Bar Beer	2	8.00	16.00
+Room Service – Club Sandwich	1	22.00	22.00
+Laundry Service	1	15.00	15.00
+
+Sub Total: 441.00
+
+Hotel Occupancy Tax 11%: 40.51
+Liquor Tax 6%: 2.04
+
+Total Amount Payable: 483.55
+
+Payment Method: Credit Card (Visa)
+Authorization Code: 7F29XK
+Balance Due: 0.00
+
+THANK YOU FOR STAYING WITH US
+We look forward to welcoming you again."""""""
