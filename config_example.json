@@ -3,6 +3,6 @@
     "OPENAI_API_BASE": "your-openai-base",
 
     "SENDER_EMAIL":"your-email-address",
-    "GMAIL_APP_PASSWORD": "your-app-password"
+    "GMAIL_APP_PASSWORD": "your-app-password"  /* xxxx xxxx xxxx xxxx */
 
 }
