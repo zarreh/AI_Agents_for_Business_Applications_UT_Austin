@@ -1,0 +1,21 @@
+source_id,source_name,base_url,content_type,license_notes,is_allowed
+S01,MedlinePlus (NIH),https://medlineplus.gov,patient_education,Public domain / NIH,true
+S02,CDC,https://www.cdc.gov,public_health,US Gov,true
+S03,NHS,https://www.nhs.uk,patient_education,UK Crown,true
+S04,Mayo Clinic,https://www.mayoclinic.org,patient_education,Copyright,true
+S05,Cleveland Clinic,https://my.clevelandclinic.org,patient_education,Copyright,true
+S06,WHO,https://www.who.int,public_health,WHO,true
+S07,NIDDK (NIH),https://www.niddk.nih.gov,patient_education,NIH,true
+S08,NHLBI (NIH),https://www.nhlbi.nih.gov,patient_education,NIH,true
+S09,American Heart Association,https://www.heart.org,patient_education,Copyright,true
+S10,American Diabetes Association,https://diabetes.org,patient_education,Copyright,true
+S11,ACOG,https://www.acog.org,patient_education,Copyright,true
+S12,AAFP FamilyDoctor.org,https://familydoctor.org,patient_education,Copyright,true
+S13,Kidney Foundation,https://www.kidney.org,patient_education,Copyright,true
+S14,USPSTF,https://www.uspreventiveservicestaskforce.org,guideline,Public,true
+S15,NICE,https://www.nice.org.uk,guideline,UK,true
+S16,UpToDate (patient),https://www.uptodate.com/patients,patient_education,Copyright,true
+S17,Johns Hopkins Medicine,https://www.hopkinsmedicine.org,patient_education,Copyright,true
+S18,Stanford Health Care,https://stanfordhealthcare.org,patient_education,Copyright,true
+S19,FDA Drug Safety,https://www.fda.gov/drugs,drug_safety,US Gov,true
+S20,NIH Office of Dietary Supplements,https://ods.od.nih.gov,patient_education,NIH,true

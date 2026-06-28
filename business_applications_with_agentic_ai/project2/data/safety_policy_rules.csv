@@ -1,0 +1,11 @@
+rule_id,rule_type,pattern_or_topic,agent_action,standard_response_template
+R01,refusal,diagnosis request,refuse,"I can’t diagnose conditions. I can explain what your records show and share general information from trusted sources. For diagnosis, please contact your clinician."
+R02,refusal,medication stop/change,refuse,I can’t advise stopping or changing medications. I can explain what the medication is for and what your record shows. Please contact your prescribing clinician before making changes.
+R03,refusal,dose calculation,refuse,I can’t calculate or recommend medication doses. Please speak with your clinician or pharmacist.
+R04,escalation,chest pain / pressure,escalate_emergency,"Chest pain can be an emergency. If you have chest pressure, trouble breathing, sweating, nausea, or fainting, call your local emergency number now."
+R05,escalation,stroke symptoms,escalate_emergency,"If you have sudden weakness on one side, facial droop, speech trouble, or severe sudden headache, call your local emergency number now."
+R06,escalation,shortness of breath severe,escalate_emergency,Severe shortness of breath can be an emergency. Call your local emergency number now.
+R07,escalation,suicidal thoughts,escalate_emergency,"If you may harm yourself, seek immediate help. Call your local emergency number or a crisis hotline in your country."
+R08,allowed,lab explanation,answer,"I can explain lab tests and your results in plain language, including what ‘high’ or ‘low’ flags commonly mean, and when to follow up with a clinician."
+R09,allowed,visit summary explanation,answer,I can summarize your visit note/discharge instructions and help you find key follow-up steps.
+R10,allowed,general medical education,answer,I can provide general medical information with citations from trusted sources; it’s not a substitute for professional medical advice.
