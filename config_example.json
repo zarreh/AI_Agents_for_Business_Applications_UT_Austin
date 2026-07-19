@@ -3,6 +3,10 @@
     "OPENAI_API_BASE": "your-openai-base",
 
     "SENDER_EMAIL":"your-email-address",
-    "GMAIL_APP_PASSWORD": "your-app-password"  /* xxxx xxxx xxxx xxxx */
+    "GMAIL_APP_PASSWORD": "your-app-password"  /* xxxx xxxx xxxx xxxx */,
+
+    "LANGCHAIN_TRACING_V2": "true",
+    "LANGCHAIN_API_KEY": "your-langchain-api-key",
+    "LANGCHAIN_PROJECT": "test"
 
 }

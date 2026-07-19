@@ -24,3 +24,7 @@ config.json
 
 # vectore stores
 *_db/
+
+# LangGraph dev local cache
+.langgraph_api/
+

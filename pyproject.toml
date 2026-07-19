@@ -25,4 +25,6 @@ dependencies = [
     "fastmcp==2.14.4",
     "mcp==1.25.0",
     "nest-asyncio==1.6.0",
+    "langchain-huggingface>=1.2.2",
+    "langgraph-cli[inmem]>=0.4.31",
 ]

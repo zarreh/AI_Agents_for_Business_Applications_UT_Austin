@@ -1,0 +1,7 @@
+{
+  "$schema": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/libs/cli/schemas/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "helpdesk_copilot": "./AI_Helpdesk_Copilot.py:graph"
+  }
+}
