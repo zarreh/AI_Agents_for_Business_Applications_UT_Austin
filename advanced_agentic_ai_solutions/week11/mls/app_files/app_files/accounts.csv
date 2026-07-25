@@ -1,0 +1,13 @@
+customer_account_id,customer_name,account_pin,account_status,autopay_enabled,date_joined
+ACCT_1000,Dorcas,2824,active,yes,2021-04-12
+ACCT_1001,Dessie,1409,active,no,2019-11-03
+ACCT_1002,Alexandra,5506,active,yes,2020-07-21
+ACCT_1003,Jessica,5012,active,no,2022-02-15
+ACCT_1004,Betty,4657,suspended,no,2018-09-30
+ACCT_1005,Carmela,3286,active,yes,2023-01-08
+ACCT_1006,Ozella,2679,active,no,2020-12-19
+ACCT_1007,Ethel,9935,active,yes,2017-06-25
+ACCT_1008,Geary,2424,active,no,2021-10-11
+ACCT_1009,Alissa,7912,active,yes,2022-08-02
+ACCT_1010,Marvin,1520,active,no,2019-03-17
+ACCT_1011,Lorena,1488,suspended,no,2023-05-29

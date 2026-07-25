@@ -1,0 +1,6 @@
+Order Id,Type,Days for shipping (real),Days for shipment (scheduled),Delivery Status,Late_delivery_risk,Order Status,Shipping Mode,Order Region,Order City,Order Country,Customer Segment,Category Name,Sales,Order Item Quantity,delay_gap,decision_expected,expected_policies
+TC001,DEBIT,4,4,Shipping on time,0,COMPLETE,Standard Class,West of USA,Los Angeles,United States,Consumer,Water Sports,199.99,2,0,monitor,POL-004
+TC002,DEBIT,6,2,Late delivery,1,COMPLETE,Second Class,Northern Europe,London,United Kingdom,Corporate,Men's Footwear,129.99,1,4,reroute,POL-002
+TC003,DEBIT,2,4,Shipping canceled,0,CANCELED,Standard Class,Central America,Panama City,Panama,Corporate,Fishing,399.98,3,-2,escalate_human,POL-003
+TC004,DEBIT,6,4,Late delivery,1,COMPLETE,First Class,Eastern Asia,Tokyo,Japan,Corporate,Electronics,3500.0,1,2,expedite,POL-002|POL-006
+TC005,DEBIT,5,4,Late delivery,1,COMPLETE,Standard Class,Canada,Toronto,Canada,Consumer,Books,75.0,1,1,monitor,POL-004

@@ -1,12 +1,18 @@
 {
-    "OPENAI_API_KEY": "your-openai-key",
-    "OPENAI_API_BASE": "your-openai-base",
+  "OPENAI_API_KEY": "gl-",
+  "OPENAI_API_BASE": "https://aibe.mygreatlearning.com/openai/v1",
+  "TAVILY_API_KEY": "tvly-dev-",
 
-    "SENDER_EMAIL":"your-email-address",
-    "GMAIL_APP_PASSWORD": "your-app-password"  /* xxxx xxxx xxxx xxxx */,
+  
+  "LANGSMITH_TRACING": "true",
+  "LANGSMITH_ENDPOINT": "https://api.smith.langchain.com",
+  "LANGSMITH_API_KEY": "lsv2_pt_",
+  "LANGSMITH_PROJECT": "ut_austin_agnetic_ai",
 
-    "LANGCHAIN_TRACING_V2": "true",
-    "LANGCHAIN_API_KEY": "your-langchain-api-key",
-    "LANGCHAIN_PROJECT": "test"
+  "LANGCHAIN_TRACING_V2": "true",
+  "LANGCHAIN_API_KEY": "lsv2_pt_",
+  "LANGCHAIN_PROJECT": "ut_austin_agnetic_ai",
 
+  "SENDER_EMAIL":"xxxxxx@gmail.com",
+  "GMAIL_APP_PASSWORD": "xxxx xxxx xxxx xxxx"
 }

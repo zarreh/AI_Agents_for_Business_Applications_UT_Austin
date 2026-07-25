@@ -1,0 +1,83 @@
+LOGISTICS POLICY RULEBOOK
+Internal Document: Supply Chain Operations
+
+POL-001: Weather Disruption Protocol
+Scope: Applies when a delivery status indicates a delay where adverse weather conditions are
+identified as the primary cause by carrier reports or meteorological alerts.
+Standard Action: Reroute
+Decision Matrix:
+- Delay < 3 days: Monitor status and hold shipment at the current hub. Do not initiate rerouting.
+- Delay 3-5 days: Initiate reroute via alternate regional hub if route availability exceeds 80%.
+- Delay > 5 days: Immediate escalation to the senior dispatch department for direct carrier negotiation.
+
+Geographic Exceptions:
+- Western Europe: Mandatory reroute via Frankfurt Hub.
+- North America: Mandatory reroute via Chicago Distribution Center.
+- South America: Hold at São Paulo Hub and initiate customer delay notification.
+
+POL-002: Standard Late Delivery Protocol
+Scope: Triggered when a high risk of late delivery is identified, and the projected delay is
+between 2 and 5 days.
+Standard Action: Reroute
+Operational Rules:
+1. Perform a regional lookup for alternate carrier routes.
+2. If an alternate exists: Initiate reroute and issue formal carrier notification.
+3. If no alternate: Change status to "Hold" and upgrade shipping mode to "Expedited."
+4. High-Value Clause: Any shipment with a sales value exceeding $3,000 bypasses standard
+   checks and is automatically upgraded to "Expedited" shipping.
+
+POL-003: Critical Escalation Policy
+Scope: Triggered by terminal status errors, shipping cancellations, or extreme delays.
+Standard Action: Management Intervention Required
+Escalation Criteria:
+- Delivery Status is "Shipping canceled."
+- Total delay exceeds 5 calendar days.
+- Sales value > $3,000 AND high late-delivery risk.
+- Corporate customer SLA breach is imminent (less than 4 hours to breach).
+
+Response Time SLAs:
+- Corporate Customers: Resolution or status update required within 30 minutes.
+- Consumer Customers: Resolution or status update required within 120 minutes.
+
+POL-004: Shipping Mode SLA Commitments
+Scope: Defines the threshold for service level agreement (SLA) breaches based on the
+customer's selected shipping tier.
+Calculation Logic: Delay Gap = (Projected Delivery Date - Scheduled Delivery Date)
+
+SLA Tier Matrix:
+- Same Day: Scheduled 1 day, Tolerance 0 days, Action on Breach: Expedite
+- First Class: Scheduled 2 days, Tolerance 1 day, Action on Breach: Expedite
+- Second Class: Scheduled 4 days, Tolerance 2 days, Action on Breach: Reroute
+- Standard Class: Scheduled 7 days, Tolerance 3 days, Action on Breach: Hold
+
+Proactive Monitoring: Shipments within 1 day of their specific tolerance threshold must be
+flagged for immediate priority review by the dispatch team.
+
+POL-005: Customer Segment Priority Matrix
+Scope: Determines urgency and resource allocation during routing conflicts, limited carrier
+capacity, or regional disruptions.
+
+Priority Levels:
+- Corporate: Priority High, Escalation Window 30 Minutes
+- Home Office: Priority Medium, Escalation Window 90 Minutes
+- Consumer: Priority Medium, Escalation Window 120 Minutes
+
+Operational Rules:
+1. Corporate customers receive first-priority for limited alternate route capacity and container space.
+2. Consumer orders strictly follow the Standard Late Delivery Protocol (POL-002).
+3. Home Office orders are managed under Consumer protocols unless the total order value
+   exceeds $2,000, at which point they inherit Corporate priority status.
+
+POL-006: Special Cargo Handling Protocols
+Scope: Overrides standard routing procedures based on specific product category requirements
+or environmental sensitivities.
+
+Category Constraints:
+- Electronics: Requires temperature-controlled routing. Initiate reroute immediately if the
+  delay exceeds 2 days to protect sensitive components.
+- Furniture: Bulk handling priority. Delays up to 5 days are tolerable; rerouting should be
+  avoided due to significant transit and oversized handling costs.
+- Clothing: Seasonal sensitivity. If delivery is within 7 days of a seasonal transition
+  (e.g., holiday periods), upgrade to Expedited.
+- Sports: Follow standard handling procedures.
+- Books: Lowest priority. Use as "filler" capacity on alternate routes where weight limits allow.

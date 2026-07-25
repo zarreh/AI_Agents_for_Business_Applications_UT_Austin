@@ -1,0 +1,66 @@
+{
+  "ACCT_1002": [
+    {
+      "timestamp": "2026-01-10T09:15:00+00:00",
+      "query": "My 4G data keeps cutting out near downtown. It has been happening all week.",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "Advised toggling airplane mode and resetting APN settings. Local tower under maintenance until Jan 15."
+    },
+    {
+      "timestamp": "2026-01-14T14:30:00+00:00",
+      "query": "The data issue is still happening after the maintenance window.",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "escalate",
+      "response_summary": "Escalated to field technician team. Ticket NET-4421 raised. Resolution expected within 48 hours."
+    },
+    {
+      "timestamp": "2026-02-28T07:05:15+00:00",
+      "query": "My bill is higher than usual this month. Could it be related to my recent data issues?",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "inform",
+      "response_summary": "Explained that usage stayed within the 15GB allowance and the higher amount came from a one-time device fee."
+    }
+  ],
+  "ACCT_1000": [
+    {
+      "timestamp": "2026-02-05T06:46:06+00:00",
+      "query": "My signal keeps dropping in my apartment and I keep losing calls. What can I do?",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "Walked through signal check, wifi calling setup, and SIM reseat. Advised enabling wifi calling for indoor coverage."
+    }
+  ],
+  "ACCT_1001": [
+    {
+      "timestamp": "2026-02-20T06:46:23+00:00",
+      "query": "I want a full refund of my last three bills. Cancel all charges immediately.",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "escalate",
+      "response_summary": "Refund request exceeded the standard authorization limit. Escalated to a senior billing manager for review."
+    },
+    {
+      "timestamp": "2026-03-01T10:12:00+00:00",
+      "query": "Following up on my refund escalation from last week.",
+      "intent": "billing",
+      "agent_used": "Escalation Team",
+      "resolution_type": "escalate",
+      "response_summary": "Confirmed the case is with the billing manager queue. Reference BILL-2087. Follow-up promised within 24 hours."
+    }
+  ],
+  "ACCT_1007": [
+    {
+      "timestamp": "2026-01-30T15:20:00+00:00",
+      "query": "I want to upgrade from Plus to Unlimited before my trip abroad.",
+      "intent": "account",
+      "agent_used": "Account Manager",
+      "resolution_type": "inform",
+      "response_summary": "Explained upgrade path and roaming add-on. Customer chose to keep Plus and enable roaming for the trip."
+    }
+  ]
+}

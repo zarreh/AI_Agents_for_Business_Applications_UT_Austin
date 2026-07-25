@@ -1,0 +1,13 @@
+customer_account_id,plan_name,monthly_cost_usd,data_allowance_gb,data_used_gb,voice_minutes,contract_end_date,roaming_enabled
+ACCT_1000,Standard,45,15,9.2,unlimited,2025-12-01,no
+ACCT_1001,Plus,60,30,31.5,unlimited,2024-10-15,yes
+ACCT_1002,Standard,45,15,12.0,unlimited,2025-03-30,no
+ACCT_1003,Basic,25,5,4.1,500,2026-02-15,no
+ACCT_1004,Basic,25,5,0.0,500,2024-09-30,no
+ACCT_1005,Unlimited,80,999,64.3,unlimited,2026-01-08,yes
+ACCT_1006,Standard,45,15,15.8,unlimited,2025-06-19,no
+ACCT_1007,Plus,60,30,22.7,unlimited,2025-06-25,yes
+ACCT_1008,Basic,25,5,3.3,500,2026-04-11,no
+ACCT_1009,Standard,45,15,10.9,unlimited,2025-08-02,no
+ACCT_1010,Plus,60,30,28.0,unlimited,2024-12-17,yes
+ACCT_1011,Basic,25,5,0.0,500,2025-05-29,no

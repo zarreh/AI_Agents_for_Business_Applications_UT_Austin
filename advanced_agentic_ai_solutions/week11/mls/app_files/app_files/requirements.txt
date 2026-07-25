@@ -1,0 +1,17 @@
+streamlit>=1.36
+pandas>=2.0
+pypdf>=4.2
+
+# LangChain / LangGraph stack
+langchain-core>=0.2
+langchain-openai>=0.1
+langchain-community>=0.2
+langgraph>=0.2
+typing-extensions>=4.11
+
+# Vector store + embeddings backend
+chromadb>=0.5
+langchain-chroma>=0.1
+
+# Optional tracing (safe to keep; imported defensively)
+langsmith>=0.1
