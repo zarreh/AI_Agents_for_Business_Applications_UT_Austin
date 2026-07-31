@@ -1,0 +1,114 @@
+{
+  "ACCT_1002": [
+    {
+      "timestamp": "2026-01-10T09:15:00+00:00",
+      "query": "My 4G data keeps cutting out near downtown. It has been happening all week.",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "Advised toggling airplane mode and resetting APN settings. Local tower under maintenance until Jan 15."
+    },
+    {
+      "timestamp": "2026-01-14T14:30:00+00:00",
+      "query": "The data issue is still happening after the maintenance window.",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "escalate",
+      "response_summary": "Escalated to field technician team. Ticket NET-4421 raised. Resolution expected within 48 hours."
+    },
+    {
+      "timestamp": "2026-02-28T07:05:15+00:00",
+      "query": "My bill is higher than usual this month. Could it be related to my recent data issues?",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "inform",
+      "response_summary": "Explained that usage stayed within the 15GB allowance and the higher amount came from a one-time device fee."
+    },
+    {
+      "timestamp": "2026-07-31T03:18:08.963865+00:00",
+      "query": "My bill looks higher than usual this month. Can you help me understand why?",
+      "intent": "billing",
+      "agent_used": "Billing Agent",
+      "resolution_type": "inform",
+      "response_summary": "Your current plan is the Standard plan, which costs $45 per month and includes a data allowance of 15 GB. You have used 12 GB of data this cycle, so you are within your data limit.\n\nBased on your prev"
+    },
+    {
+      "timestamp": "2026-07-31T03:18:13.897193+00:00",
+      "query": "It says I used 12GB but my plan is 15GB. Why would I be charged more?",
+      "intent": "billing",
+      "agent_used": "Billing Agent",
+      "resolution_type": "inform",
+      "response_summary": "Your current plan is the Standard plan, which costs $45 per month and includes a data allowance of 15 GB. You have used 12 GB of data this cycle, so you are still within your allowance.\n\nIf you are se"
+    },
+    {
+      "timestamp": "2026-07-31T03:18:18.576041+00:00",
+      "query": "Alright, please confirm my plan name and my contract end date.",
+      "intent": "account",
+      "agent_used": "Account Agent",
+      "resolution_type": "inform",
+      "response_summary": "Your current plan is the **Standard plan**, which costs **$45 per month** and includes a data allowance of **15 GB**. You have used **12 GB** of data this cycle. Your contract is set to end on **March"
+    }
+  ],
+  "ACCT_1000": [
+    {
+      "timestamp": "2026-02-05T06:46:06+00:00",
+      "query": "My signal keeps dropping in my apartment and I keep losing calls. What can I do?",
+      "intent": "network",
+      "agent_used": "Network Support Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "Walked through signal check, wifi calling setup, and SIM reseat. Advised enabling wifi calling for indoor coverage."
+    },
+    {
+      "timestamp": "2026-07-31T03:17:58.559400+00:00",
+      "query": "My signal keeps dropping in my apartment and I keep losing calls. What can I do?",
+      "intent": "network",
+      "agent_used": "Network Agent",
+      "resolution_type": "troubleshoot",
+      "response_summary": "It sounds like you're experiencing ongoing signal issues in your apartment. Since you've already tried checking your signal, setting up Wi-Fi calling, and reseating your SIM card, here are a few addit"
+    }
+  ],
+  "ACCT_1001": [
+    {
+      "timestamp": "2026-02-20T06:46:23+00:00",
+      "query": "I want a full refund of my last three bills. Cancel all charges immediately.",
+      "intent": "billing",
+      "agent_used": "Billing Specialist",
+      "resolution_type": "escalate",
+      "response_summary": "Refund request exceeded the standard authorization limit. Escalated to a senior billing manager for review."
+    },
+    {
+      "timestamp": "2026-03-01T10:12:00+00:00",
+      "query": "Following up on my refund escalation from last week.",
+      "intent": "billing",
+      "agent_used": "Escalation Team",
+      "resolution_type": "escalate",
+      "response_summary": "Confirmed the case is with the billing manager queue. Reference BILL-2087. Follow-up promised within 24 hours."
+    },
+    {
+      "timestamp": "2026-07-31T03:18:26.242881+00:00",
+      "query": "I want a full refund of $120 from my last three bills. Please process it now.",
+      "intent": "billing",
+      "agent_used": "Billing Agent",
+      "resolution_type": "inform",
+      "response_summary": "Based on our refund policy, a refund is generally appropriate when a customer is charged in error, billed a duplicate fee, or charged for a service that did not work as sold. However, it is not approp"
+    }
+  ],
+  "ACCT_1007": [
+    {
+      "timestamp": "2026-01-30T15:20:00+00:00",
+      "query": "I want to upgrade from Plus to Unlimited before my trip abroad.",
+      "intent": "account",
+      "agent_used": "Account Manager",
+      "resolution_type": "inform",
+      "response_summary": "Explained upgrade path and roaming add-on. Customer chose to keep Plus and enable roaming for the trip."
+    },
+    {
+      "timestamp": "2026-07-31T03:18:29.056592+00:00",
+      "query": "I want to cancel my service and close my account permanently.",
+      "intent": "escalation",
+      "agent_used": "Escalation Team",
+      "resolution_type": "escalate",
+      "response_summary": "Escalated to human. Reason: Customer wants to cancel service and close account permanently.. Urgency: High."
+    }
+  ]
+}
