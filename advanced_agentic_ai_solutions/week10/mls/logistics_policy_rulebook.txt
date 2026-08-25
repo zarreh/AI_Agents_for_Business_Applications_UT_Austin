@@ -19,6 +19,7 @@ POL-002: Standard Late Delivery Protocol
 Scope: Triggered when a high risk of late delivery is identified, and the projected delay is
 between 2 and 5 days.
 Standard Action: Reroute
+
 Operational Rules:
 1. Perform a regional lookup for alternate carrier routes.
 2. If an alternate exists: Initiate reroute and issue formal carrier notification.
